@@ -29,7 +29,7 @@
           <div class="mb-3">
             {{ form.password.label }}
 
-            <a class="float-right align-text-to-button" href="https://t.me/magecode">
+            <a class="float-right align-text-to-button" href="{{ url_for('auth.reset_password') }}">
               Забыли пароль?
             </a>
             <div class="input-group">
